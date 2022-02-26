@@ -1,0 +1,298 @@
+@media screen and(max-width:1109px){
+    #sekcija-kontakt{
+        .poruka{
+            #forma{
+                input[type="submit"]{
+                    width: 30%;
+                }
+            }
+            .kontakt{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:1026px){
+    header{
+        .position{
+            nav{
+                ul{
+                    padding: 8px 0 ;
+                    li{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    #sekcija-usluga{
+        .usluga{
+            .usluge{
+                width: 48%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    #projekti {
+        .box1{
+            #blok-projekata{
+                .blok{
+                p{
+                font-size: 15px;
+            }}
+        }
+        }
+    }
+}
+
+@media screen and(max-width:957px){
+    .centar-blok{
+        width: 85%;
+    }
+    #o-meni{
+        .box{
+            flex-direction: column;
+            height: auto;
+            width: 300px;
+            #o-meni-text{
+                h2{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width:845px){
+    header{
+        .position{
+            nav{
+                margin-left: 10px;
+                ul{
+                    padding: 8px 0 ;
+                    li{
+                        margin-left: 20px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    #vestine{
+        h2{
+            font-size: 25px;
+        }
+    }
+    #projekti {
+        .box1{
+            h2{font-size: 25px;}
+            #blok-projekata{
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .blok{
+                width: 45%;
+                margin-bottom: 25px;
+            }
+        }
+        }
+    }
+    #sekcija-kontakt{
+        .poruka{
+            flex-direction: column;
+            align-items: center;
+            #forma{
+                width: 70%;
+                input[type="submit"]{
+                    width: 30%;
+                }
+            }
+            .kontakt{
+                width: 70%;
+            }
+        }
+    }
+   
+}
+@media screen and (max-width: 769px){
+    header{
+        .position{
+            
+            #logo{
+                margin:10px auto;
+            }
+            nav{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    #vestine{
+        h2{
+            font-size: 20px;
+        }
+        #blok1{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .vestine1{
+                width: 75%;
+                margin-top: 50px;
+                &:first-child{
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    #projekti {
+        .box1{
+            h2{font-size: 20px;}
+        }
+    }
+    
+}
+@media screen and (max-width: 635px){
+    .centar-blok{
+        width: 95%;
+    }
+    header{
+        .position{
+            nav{
+                margin-left: 0px;
+                ul{
+                    padding: 7px 0 ;
+                    li{
+                        font-size: 15px;
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+    }
+    #sekcija-usluga{
+        .usluga{
+            justify-content: center;
+            .usluge{
+                width: 70%;
+                margin-bottom: 20px;
+    
+            }
+        }
+    }
+    #projekti {
+        .box1{
+            #blok-projekata{
+                .blok{
+                width: 70%;
+                margin-bottom: 30px;
+            }
+        }
+        }
+    }
+    #sekcija-kontakt{
+        .poruka{
+            #forma{
+                width: 80%;
+            }
+            .kontakt{
+                width: 80%;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and(max-width:478px){
+    .column1{
+        flex-direction: column;
+    }
+    header{
+        .position{
+            nav{
+                margin-left: 0px;
+                text-align: center;
+                ul{
+                    justify-content: center;
+                    padding: 7px 0 ;
+                    width: 70%;
+                    li{
+                        padding: 5px;
+                        font-size: 16px;
+                        margin-left: 12px;
+                        border-bottom: 1px solid rgba(0,0,0,0.5);
+                        
+                    }
+                }
+            }
+        }
+        #cover{
+            .text-cover{
+                font-size: 14px;
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    #vestine{
+        #blok1{
+            .vestine1{
+                .krug{
+                width: 80px;
+                height: 80px;
+                }
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+    #sekcija-kontakt{
+        .centar-blok{
+            width: 100%;
+        }
+        .poruka{
+            #forma{
+                width: 85%;
+                input[type="submit"]{
+                    width: 40%;
+                }
+            }
+            .kontakt{
+                width: 100%;
+                h3{
+                    font-size: 18px;
+                }
+                p{
+                   
+                    font-size: 14px;
+                    
+                }
+                
+            }
+        }
+    }
+    footer{
+        .copy{
+            h4{
+            font-size: 18px;
+            letter-spacing: 1px;
+            }
+        }
+        nav{
+            ul{
+                li{
+                    i{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,536 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.centar-blok {
+  width: 75%;
+  margin: 0px auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gray {
+  color: #ADADAD;
+}
+
+/*header*/
+header .position #logo {
+  margin: 10px 0;
+}
+
+header .position #logo img {
+  width: 60px;
+  height: 60px;
+}
+
+header .position .text {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  color: #000000;
+}
+
+header .position nav {
+  margin-left: 20px;
+}
+
+header .position nav ul {
+  padding: 10px 0;
+}
+
+header .position nav ul li {
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  color: #000000;
+}
+
+header .position nav ul li a {
+  color: #000000;
+}
+
+header .position nav ul li a:hover {
+  color: #6b998d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@-webkit-keyframes skala {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes skala {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+header #cover {
+  background-image: url("../img/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+header #cover .text-cover {
+  -webkit-animation-name: skala;
+          animation-name: skala;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #ADADAD;
+  width: 100%;
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+header #cover .text-cover h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+/*o meni*/
+#o-meni {
+  background-color: rgba(107, 153, 141, 0.5);
+  padding: 50px 0;
+  border: 2px solid #ffffff;
+}
+
+#o-meni .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #000000;
+  width: 75%;
+  margin: 0px auto;
+  background-color: #ffffff;
+  text-align: center;
+  height: 420px;
+}
+
+#o-meni .box #o-meni-slika {
+  width: 300px;
+  height: 416px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#o-meni .box #o-meni-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  margin-right: 15%;
+}
+
+#o-meni .box #o-meni-text h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+#o-meni .box #o-meni-text p {
+  color: #666666;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#o-meni .box #o-meni-text p a {
+  text-decoration: none;
+  color: #666666;
+  font-weight: 700;
+}
+
+/*usluge*/
+#sekcija-usluga {
+  padding: 80px 0;
+}
+
+#sekcija-usluga h2 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#sekcija-usluga hr {
+  margin: 15px auto;
+  width: 30%;
+  height: 12px;
+  border: 0;
+  -webkit-box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+#sekcija-usluga .usluga .usluge {
+  width: 24%;
+  background-color: rgba(214, 214, 214, 0.7);
+  text-align: center;
+}
+
+#sekcija-usluga .usluga .usluge .ikona {
+  font-size: 22px;
+  padding: 15px 0;
+  width: auto;
+  height: auto;
+}
+
+#sekcija-usluga .usluga .usluge .usluga-naslov h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+#sekcija-usluga .usluga .usluge .usluga-text {
+  padding: 15px;
+}
+
+#sekcija-usluga .usluga .usluge .usluga-text p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/*vestine*/
+#vestine {
+  background-color: rgba(107, 153, 141, 0.5);
+  padding: 50px 0;
+}
+
+#vestine h2 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#vestine .podvuceno {
+  margin: 15px auto;
+  width: 30%;
+  height: 12px;
+  border: 0;
+  -webkit-box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+#vestine #blok1 {
+  padding: 20px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+#vestine #blok1 .vestine1 {
+  width: 30%;
+}
+
+#vestine #blok1 .vestine1 .krug {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  padding: 20px;
+  width: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 100px;
+}
+
+#vestine #blok1 .vestine1 img {
+  width: 100px;
+  height: 100px;
+}
+
+#vestine #blok1 .vestine1 p {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+}
+
+/*projekti*/
+#projekti {
+  padding: 50px;
+}
+
+#projekti .box1 h2 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#projekti .box1 .podvuceno {
+  margin: 15px auto;
+  width: 30%;
+  height: 12px;
+  border: 0;
+  -webkit-box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+#projekti .box1 #blok-projekata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0px;
+}
+
+#projekti .box1 #blok-projekata .blok {
+  height: auto;
+  width: 30%;
+  -webkit-box-shadow: 10px 10px 10px #6b998d;
+          box-shadow: 10px 10px 10px #6b998d;
+}
+
+#projekti .box1 #blok-projekata .blok img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#projekti .box1 #blok-projekata .blok p {
+  word-spacing: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+}
+
+/*kontakt*/
+#sekcija-kontakt {
+  background-color: rgba(107, 153, 141, 0.5);
+  padding: 50px;
+}
+
+#sekcija-kontakt h2 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#sekcija-kontakt hr {
+  margin: 15px auto;
+  width: 30%;
+  height: 12px;
+  border: 0;
+  -webkit-box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+#sekcija-kontakt .poruka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#sekcija-kontakt .poruka #forma {
+  width: 45%;
+}
+
+#sekcija-kontakt .poruka #forma form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#sekcija-kontakt .poruka #forma input, #sekcija-kontakt .poruka #forma textarea {
+  padding: 10px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  color: #000000;
+  border: 1px solid #222222;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+#sekcija-kontakt .poruka #forma textarea {
+  height: 100px;
+}
+
+#sekcija-kontakt .poruka #forma input[type="submit"] {
+  width: 20%;
+  background-color: #6b998d;
+  color: #000000;
+  font-weight: 900;
+}
+
+#sekcija-kontakt .poruka #forma input[type="submit"]:hover {
+  background-color: #000000;
+  color: #6b998d;
+}
+
+#sekcija-kontakt .poruka .kontakt {
+  width: 40%;
+  text-align: center;
+}
+
+#sekcija-kontakt .poruka .kontakt h3 {
+  margin: 30px 0 10px;
+  font-size: 22px;
+}
+
+#sekcija-kontakt .poruka .kontakt p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+}
+
+#sekcija-kontakt .poruka .kontakt p a {
+  font-weight: 700;
+  color: #222222;
+}
+
+#sekcija-kontakt .poruka .kontakt p i {
+  margin-right: 8px;
+}
+
+/*footer*/
+footer {
+  background-color: rgba(214, 214, 214, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h4 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer nav ul li a {
+  color: #000000;
+}
+
+footer nav ul li i {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

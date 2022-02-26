@@ -1,0 +1,229 @@
+@media screen and (max-width: 1109px) {
+  #sekcija-kontakt .poruka #forma input[type="submit"] {
+    width: 30%;
+  }
+  #sekcija-kontakt .poruka .kontakt {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  header .position nav ul {
+    padding: 8px 0;
+  }
+  header .position nav ul li {
+    font-size: 18px;
+  }
+  #sekcija-usluga .usluga .usluge {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  #projekti .box1 #blok-projekata .blok p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 957px) {
+  .centar-blok {
+    width: 85%;
+  }
+  #o-meni .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: 300px;
+  }
+  #o-meni .box #o-meni-text h2 {
+    font-size: 18px;
+  }
+  #o-meni .box #o-meni-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  header .position nav {
+    margin-left: 10px;
+  }
+  header .position nav ul {
+    padding: 8px 0;
+  }
+  header .position nav ul li {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  #vestine h2 {
+    font-size: 25px;
+  }
+  #projekti .box1 h2 {
+    font-size: 25px;
+  }
+  #projekti .box1 #blok-projekata {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #projekti .box1 #blok-projekata .blok {
+    width: 45%;
+    margin-bottom: 25px;
+  }
+  #sekcija-kontakt .poruka {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sekcija-kontakt .poruka #forma {
+    width: 70%;
+  }
+  #sekcija-kontakt .poruka #forma input[type="submit"] {
+    width: 30%;
+  }
+  #sekcija-kontakt .poruka .kontakt {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  header .position #logo {
+    margin: 10px auto;
+  }
+  header .position nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #vestine h2 {
+    font-size: 20px;
+  }
+  #vestine #blok1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #vestine #blok1 .vestine1 {
+    width: 75%;
+    margin-top: 50px;
+  }
+  #vestine #blok1 .vestine1:first-child {
+    margin-top: 0px;
+  }
+  #projekti .box1 h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .centar-blok {
+    width: 95%;
+  }
+  header .position nav {
+    margin-left: 0px;
+  }
+  header .position nav ul {
+    padding: 7px 0;
+  }
+  header .position nav ul li {
+    font-size: 15px;
+    margin-left: 12px;
+  }
+  #sekcija-usluga .usluga {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sekcija-usluga .usluga .usluge {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  #projekti .box1 #blok-projekata .blok {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  #sekcija-kontakt .poruka #forma {
+    width: 80%;
+  }
+  #sekcija-kontakt .poruka .kontakt {
+    width: 80%;
+  }
+  #sekcija-kontakt .poruka .kontakt p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .column1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .position nav {
+    margin-left: 0px;
+    text-align: center;
+  }
+  header .position nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 7px 0;
+    width: 70%;
+  }
+  header .position nav ul li {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  header #cover .text-cover {
+    font-size: 14px;
+  }
+  header #cover .text-cover h1 {
+    font-size: 30px;
+  }
+  #vestine #blok1 .vestine1 .krug {
+    width: 80px;
+    height: 80px;
+  }
+  #vestine #blok1 .vestine1 img {
+    width: 80px;
+    height: 80px;
+  }
+  #sekcija-kontakt .centar-blok {
+    width: 100%;
+  }
+  #sekcija-kontakt .poruka #forma {
+    width: 85%;
+  }
+  #sekcija-kontakt .poruka #forma input[type="submit"] {
+    width: 40%;
+  }
+  #sekcija-kontakt .poruka .kontakt {
+    width: 100%;
+  }
+  #sekcija-kontakt .poruka .kontakt h3 {
+    font-size: 18px;
+  }
+  #sekcija-kontakt .poruka .kontakt p {
+    font-size: 14px;
+  }
+  footer .copy h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  footer nav ul li i {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
