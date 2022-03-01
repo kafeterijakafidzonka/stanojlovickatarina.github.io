@@ -327,6 +327,8 @@ header #cover .text-cover h1 {
 }
 
 #vestine #blok1 .vestine1 p {
+  letter-spacing: 2px;
+  line-height: 25px;
   margin-left: 20px;
   margin-top: 20px;
   font-size: 20px;
