@@ -12,7 +12,9 @@ $white:#ffffff;
     margin: 0;
    font-family: 'Raleway';
 }
-
+html{
+	scroll-behavior: smooth;
+}
 ul{
     list-style-type: none;
 }
